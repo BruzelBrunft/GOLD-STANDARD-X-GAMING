@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>GoldStandardX Gaming | One Network. Multiple Worlds.</title>
+<meta name="description" content="GoldStandardX Gaming — Elite multi-game survival network. Rust, ARK, DayZ, Conan, Minecraft and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ HEADER ═══════════════════════════════════════════════════════════ -->
+<!-- WP: header.php | Nav items = WP menu | Logo = site logo option -->
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="brand">
+      <img src="https://i.imgur.com/HUTaabA.png" alt="GoldStandardX Gaming">
+      <span class="brand-name">GoldStandard<span class="gold">X</span></span>
+    </a>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="#servers">Our Servers</a>
+      <a href="https://ops.goldstandardxgaming.org/view/gsx-community-bot" target="_blank">Support Ticket</a>
+    </nav>
+    <a class="btn btn-gold" href="https://goldstandardx.paynow.store/" target="_blank">Get VIP</a>
+    <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ═══ HERO ══════════════════════════════════════════════════════════════ -->
+<!-- WP: front-page.php | Text = ACF fields on Home page -->
+<section class="hero">
+  <div class="ring"></div>
+  <div class="wrap">
+    <span class="badge reveal"><span class="dot"></span> Elite Gaming Network</span>
+    <h1 class="reveal">GOLD <span class="gold">STANDARD</span> X<br>GAMING</h1>
+    <p class="tag reveal">One Network &nbsp;·&nbsp; Multiple Worlds &nbsp;·&nbsp; 11 Survival Communities</p>
+    <p class="motto reveal">Built Different. Played Better. The Gold Standard.</p>
+    <div class="hero-cta reveal">
+      <a class="btn btn-gold" href="https://discord.gg/4xEgrdQbFG" target="_blank">Join Our Discord</a>
+      <a class="btn btn-ghost" href="#servers">Explore Communities</a>
+      <a class="btn btn-ghost" href="https://goldstandardx.paynow.store/" target="_blank">Get VIP</a>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><div class="num gold">11</div><div class="lbl">Communities</div></div>
+      <div class="stat"><div class="num gold">9+</div><div class="lbl">Games Hosted</div></div>
+      <div class="stat"><div class="num gold">24/7</div><div class="lbl">Uptime & Support</div></div>
+      <div class="stat"><div class="num gold">1</div><div class="lbl">Unified Network</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COMMUNITIES ═══════════════════════════════════════════════════════ -->
+<!-- WP: front-page.php | Each card = WP Page with Community template + ACF fields -->
+<!-- ACF fields per community: game, modes, discord_link, shop_link, accent_color -->
+<section id="servers">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Our Communities</span>
+      <h2>Multiple Worlds.<br>One <span class="gold">Standard.</span></h2>
+      <p>Each community has its own identity, player base and servers — all backed by the same professional network.</p>
+    </div>
+    <div class="com-grid">
+
+      <!-- ACF: game="Rust Network" modes="PVE,PVP,Vanilla,Events" discord="..." shop="..." accent="#D2603C" -->
+      <div class="ccard reveal" style="--acc:#D2603C">
+        <div class="game">Rust Network</div>
+        <h3>Final Order</h3>
+        <div class="modes"><span>PVE</span><span>PVP</span><span>Vanilla</span><span>Events</span></div>
+        <div class="card-links">
+          <a class="more" href="final-order.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/7Vs2CJ8P7n" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+            Discord
+          </a>
+        </div>
+      </div>
+
+      <!-- ACF: game="ARK Survival" accent="#4FA3D1" -->
+      <div class="ccard reveal" style="--acc:#4FA3D1">
+        <div class="game">ARK Survival</div>
+        <h3>Ark of War</h3>
+        <div class="modes"><span>PVE</span><span>PVP</span><span>Multi-Map</span></div>
+        <div class="card-links">
+          <a class="more" href="ark-of-war.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/kQQ6DxTcdr" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+            Discord
+          </a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#86A05B">
+        <div class="game">DayZ · 7 Days to Die</div>
+        <h3>Last Breath Survival</h3>
+        <div class="modes"><span>Hardcore</span><span>Survival</span></div>
+        <div class="card-links">
+          <a class="more" href="last-breath-survival.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/Cq8fRnPxjm" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#C0392B">
+        <div class="game">Conan Exiles</div>
+        <h3>Warborn Exiles</h3>
+        <div class="modes"><span>PVP</span><span>PVE</span><span>Survival</span></div>
+        <div class="card-links">
+          <a class="more" href="warborn-exiles.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/V5A3SJDPt3" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#5FB54A">
+        <div class="game">Minecraft</div>
+        <h3>EmberCraft Survival</h3>
+        <div class="modes"><span>SMP</span><span>Modded</span><span>Community</span></div>
+        <div class="card-links">
+          <a class="more" href="embercraft-survival.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/AsAWq2DTXU" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#B468DE">
+        <div class="game">Enshrouded</div>
+        <h3>Emberveil Kingdom</h3>
+        <div class="modes"><span>Dark Fantasy</span><span>Survival</span></div>
+        <div class="card-links">
+          <a class="more" href="emberveil-kingdom.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/uc7nUATXn9" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#E0A92E">
+        <div class="game">SCUM</div>
+        <h3>Convict Outbreak</h3>
+        <div class="modes"><span>PVE</span><span>PVP</span></div>
+        <div class="card-links">
+          <a class="more" href="convict-outbreak.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/FYWbQXmV54" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#3FB6A4">
+        <div class="game">Icarus</div>
+        <h3>Prospectors Survival</h3>
+        <div class="modes"><span>Survival</span><span>Exploration</span></div>
+        <div class="card-links">
+          <a class="more" href="prospectors-survival.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/nTggx7u9zB" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#CF6A37">
+        <div class="game">Elite Rust</div>
+        <h3>Savage Hollow</h3>
+        <div class="modes"><span>PVE</span><span>Custom</span><span>Elite</span></div>
+        <div class="card-links">
+          <a class="more" href="savage-hollow.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/Yu4B2mdyhQ" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#8B4C9E">
+        <div class="game">SoulMask</div>
+        <h3>Fallen Bloodlines</h3>
+        <div class="modes"><span>Modded</span><span>Tribal</span><span>Survival</span></div>
+        <div class="card-links">
+          <a class="more" href="fallen-bloodlines.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/38WjMttgad" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+      <div class="ccard reveal" style="--acc:#E8A030">
+        <div class="game">Custom Rust</div>
+        <h3>Hornet Haven</h3>
+        <div class="modes"><span>PVE</span><span>3x</span><span>10x</span></div>
+        <div class="card-links">
+          <a class="more" href="hornet-haven.html">View <span class="arr">→</span></a>
+          <a class="disc-link" href="https://discord.gg/bFsCT43hbY" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>Discord</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WHY GSXG ══════════════════════════════════════════════════════════ -->
+<section id="network" class="bg-alt">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Why GoldStandardX</span>
+      <h2>Built for <span class="gold">Performance.</span><br>Built for Players.</h2>
+      <p>One network. Professional infrastructure. Active staff across every community.</p>
+    </div>
+    <div class="offer-grid">
+      <div class="ocard reveal"><div class="ic">⚡</div><h4>Multi-Game Network</h4><p>Rust, ARK, DayZ, Conan, Minecraft, Enshrouded, SCUM, Icarus, SoulMask and more under one roof.</p></div>
+      <div class="ocard reveal"><div class="ic">🛡️</div><h4>High-Performance Servers</h4><p>Enterprise infrastructure with 24/7 uptime monitoring, consistent wipes and fast support.</p></div>
+      <div class="ocard reveal"><div class="ic">👥</div><h4>Active Staff Team</h4><p>Dedicated moderators and admins across all communities handling tickets and player support daily.</p></div>
+      <div class="ocard reveal"><div class="ic">🎉</div><h4>Events & Competitions</h4><p>Wipe-day events, giveaways, community competitions and seasonal challenges across the network.</p></div>
+      <div class="ocard reveal"><div class="ic">🔄</div><h4>Consistent Updates</h4><p>Scheduled wipes, plugin updates and server improvements communicated in advance on Discord.</p></div>
+      <div class="ocard reveal"><div class="ic">🌍</div><h4>Growing Community</h4><p>Thousands of players across all games in a welcoming, well-moderated network.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ VIP ════════════════════════════════════════════════════════════════ -->
+<!-- WP: front-page.php | Shop link = ACF field -->
+<section id="vip">
+  <div class="wrap" style="text-align:center;max-width:720px;margin:0 auto">
+    <span class="eyebrow reveal">VIP Membership</span>
+    <h2 class="reveal" style="font-size:clamp(34px,5vw,56px);font-weight:800;margin:14px 0 16px">Support the Network.<br><span class="gold">Play Like Gold.</span></h2>
+    <p class="reveal" style="color:var(--muted);font-size:17px;margin-bottom:28px">
+      VIP members get access to exclusive in-game perks, priority queue and custom roles across our servers. Visit our store to see all available packages and pricing for each community.
+    </p>
+    <a class="btn btn-gold reveal" href="https://goldstandardx.paynow.store/" target="_blank" style="font-size:16px;padding:13px 28px">Visit the VIP Store</a>
+    <p class="reveal" style="margin-top:14px;font-size:13px;color:var(--muted)">Secure checkout via PayNow · Packages available per server and network-wide</p>
+  </div>
+</section>
+
+<!-- ═══ BECOME STAFF ═══════════════════════════════════════════════════════ -->
+<section class="bg-alt">
+  <div class="wrap">
+    <div class="staff-banner reveal">
+      <div>
+        <span class="eyebrow">Join the Team</span>
+        <h3>Help Shape <span class="gold">GSXG.</span></h3>
+        <p>We're always looking for passionate, reliable players to join our staff team across all communities. Gain real experience in community management, server administration and event planning.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-gold" href="staff.html">Learn More</a>
+        <a class="btn btn-ghost" href="https://staff.goldstandardxgaming.org/" target="_blank">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SUPPORT ════════════════════════════════════════════════════════════ -->
+<section class="support-strip">
+  <div class="wrap">
+    <p>Need help? Our support team is available across all communities.</p>
+    <a class="btn btn-ghost" href="https://ops.goldstandardxgaming.org/view/gsx-community-bot" target="_blank">Open a Support Ticket</a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ════════════════════════════════════════════════════════════ -->
+<!-- WP: footer.php | Links = WP menus | Social = ACF theme options -->
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fcol">
+        <div class="fbrand-logo">
+          <img src="https://i.imgur.com/HUTaabA.png" alt="GSXG">
+          <span>GoldStandard<span class="gold">X</span></span>
+        </div>
+        <p class="fbrand-desc">A multi-game survival network built to deliver high-quality, community-driven experiences.<br>One Network. Multiple Worlds. The Gold Standard.</p>
+      </div>
+      <div class="fcol">
+        <h5>Network</h5>
+        <a href="#servers">Our Communities</a>
+        <a href="#network">Why GSXG</a>
+        <a href="#vip">VIP Store</a>
+        <a href="https://partner.goldstandardxgaming.org" target="_blank">Partnership</a>
+      </div>
+      <div class="fcol">
+        <h5>Community</h5>
+        <a href="https://discord.gg/4xEgrdQbFG" target="_blank">Main Discord</a>
+        <a href="https://ops.goldstandardxgaming.org/view/gsx-community-bot" target="_blank">Support Ticket</a>
+        <a href="staff.html">Become Staff</a>
+        <a href="https://staff.goldstandardxgaming.org/" target="_blank">Staff Portal</a>
+      </div>
+      <div class="fcol">
+        <h5>Social Media</h5>
+        <a href="https://www.youtube.com/@GoldStandardXGaming" target="_blank">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          YouTube
+        </a>
+        <a href="https://www.facebook.com/goldstandardxgaming" target="_blank">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook Page
+        </a>
+        <a href="https://www.facebook.com/groups/1551726816535503/" target="_blank">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook Group
+        </a>
+        <a href="https://discord.gg/4xEgrdQbFG" target="_blank">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+          Discord
+        </a>
+      </div>
+    </div>
+    <div class="fbottom">
+      <span>© 2026 GoldStandardX Gaming &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a></span>
+      <span class="motto">Set the Standard.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
